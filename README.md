@@ -14,7 +14,7 @@
 Для объезда берем улицы, где скорость выше средней
 
 
-
+```cpp
 #include <iostream>
 using namespace std;
 int main()
@@ -62,7 +62,7 @@ int main()
 
     return 0;
 }
-
+```
 
 
 Ввод:
@@ -97,7 +97,7 @@ Cкорость на улице: 9
 Изза проблем с русскими символами в string использую английское предложение
 перед отдельными словами a и but ставим запятую если ее нет
 
-
+```cpp
 #include <iostream>
 #include <string>
 using namespace std;
@@ -161,7 +161,7 @@ int main()
 
     return 0;
 }
-
+```
 строка - I went home a he stayed but then left
 вывод
 I went home, a he stayed, but then left
